@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <script src="http://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymus"></script>
+    <title></title>
+</head>
+
+<body>
+    <section class="main">
+        <div class="points__container">
+            <div class="points__player">
+                <p>Player: <span class="points__pvalue"></span></p>
+            </div>
+            <div class="points__computer">
+                <p>Computer: <span class="points__cvalue"></span></p>
+            </div>
+        </div>
+        <section class="game">
+            <div class="game__player">
+                <img data-fighter="rock" src="imgs/rock-player.png" alt="rock">
+                <img data-fighter="paper" src="imgs/paper-player.png" alt="paper">
+                <img data-fighter="scissors" src="imgs/scissor-player.png" alt="scissor">
+            </div>
+            <div class="game__clock">
+                <h1></h1>
+            </div>
+            <div class="game__computer">
+                <img data-fighter="rock" class="rock" src="imgs/rock.png" alt="rock">
+                <img data-fighter="paper" src="imgs/paper.png" alt="paper">
+                <img data-fighter="scissors" src="imgs/scissor.png" alt="scissor">
+            </div>
+        </section>
+
+        <div class="game__btns">
+            <button class="game__btn btn__play">Play game</button>
+            <button class="game__btn btn__rock">Rock</button>
+            <button class="game__btn btn__paper">Paper</button><button class="game__btn btn__scissor">Scissors</button>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="rps.js"></script>
+
+</body>
+
+</html>
